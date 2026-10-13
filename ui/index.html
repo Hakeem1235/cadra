@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCC Compliance Agent - UI</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>TCC Compliance Agent</h1>
+    <span class="health-dot" id="healthDot"></span>
+  </header>
+
+  <div class="panes">
+    <div class="pane">
+      <h2>Request Input</h2>
+      <div class="form-group">
+        <label for="loadSample">Load sample</label>
+        <select id="loadSample">
+          <option value="">Load sample request...</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="request_id">Request ID</label>
+        <input type="text" id="request_id" placeholder="ui_001">
+      </div>
+      <div class="form-group">
+        <label for="from">From</label>
+        <input type="text" id="from" placeholder="sender@example.com">
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Subject line">
+      </div>
+      <div class="form-group">
+        <label for="received_at">Received at</label>
+        <input type="text" id="received_at" placeholder="2026-10-06T10:12:00+05:30">
+      </div>
+      <div class="form-group">
+        <label for="body">Body</label>
+        <textarea id="body" placeholder="Full email body text..."></textarea>
+      </div>
+      <div class="form-group">
+        <label>Attachments</label>
+        <div class="file-picker">
+          <input type="file" id="attachment" multiple>
+          <span class="badge" id="attachBadge">None</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;margin-top:8px;">
+        <button class="btn btn-primary" id="runBtn">Run compliance check</button>
+        <div class="loader" id="loader"></div>
+      </div>
+    </div>
+
+    <div class="pane" id="resultPane">
+      <h2>Decision</h2>
+      <div class="empty-state">
+        <p>Submit a request to see the compliance decision.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script>document.addEventListener("DOMContentLoaded", init);</script>
+</body>
+</html>

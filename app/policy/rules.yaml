@@ -1,0 +1,159 @@
+# TCC compliance rules — versioned policy data
+# Each rule links to a SOP clause + version for deterministic check execution
+
+rules:
+  - rule_id: KYC_VALIDATED
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "4.2"
+    params:
+      status: "VALIDATED"
+      outcome: "PROCEED"
+    reason_code: "KYC_VALIDATED"
+
+  - rule_id: KYC_REGISTERED
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "4.2"
+    params:
+      status: "REGISTERED"
+      outcome: "PEND"
+      new_amc_exception: true
+    reason_code: "KYC_REGISTERED"
+
+  - rule_id: KYC_ON_HOLD
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "4.4"
+    params:
+      status: "ON_HOLD"
+      outcome: "REJECT"
+      redemption_outcome: "HOLD_AND_REFER"
+    reason_code: "KYC_ON_HOLD"
+
+  - rule_id: KYC_REJECTED
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "4.4"
+    params:
+      status: "REJECTED"
+      outcome: "REJECT"
+      redemption_outcome: "HOLD_AND_REFER"
+    reason_code: "KYC_REJECTED"
+
+  - rule_id: KYC_UNABLE_TO_VERIFY
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "4.5"
+    params:
+      outcome: "PEND"
+    reason_code: "KYC_UNABLE_TO_VERIFY"
+
+  - rule_id: TPP_MINOR_PARENT_GUARDIAN
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "5.4"
+    params:
+      outcome: "PROCEED"
+      allowed_relations: ["father", "mother", "legal guardian"]
+    reason_code: "TPP_ALLOWED"
+
+  - rule_id: TPP_MINOR_OTHER
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "5.4"
+    params:
+      outcome: "REJECT"
+    reason_code: "TPP_NO_EXCEPTION"
+
+  - rule_id: TPP_EXCEPTION_EMPLOYER
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "5.3"
+    params:
+      outcome: "PROCEED_MODIFIED"
+      required_docs: ["TPP_declaration", "employer_letterhead", "employee_list", "KYC_acknowledgement"]
+    reason_code: "TPP_EMPLOYER_EXCEPTION"
+
+  - rule_id: COB_COOLING
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "6.3"
+    params:
+      cooling_days: 10
+      outcome: "PEND"
+    reason_code: "COB_COOLING"
+
+  - rule_id: HIGH_RISK_CONTACT_COB
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "6.5"
+    params:
+      contact_change_days: 30
+      outcome: "HOLD_AND_REFER"
+    reason_code: "HIGH_RISK_CONTACT_COB"
+
+  - rule_id: ARN_INVALID
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "7.1"
+    params:
+      outcome: "PROCEED_MODIFIED"
+      action: "process_in_direct"
+    reason_code: "ARN_INVALID_DIRECT"
+
+  - rule_id: STOP_LOCK
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "8.3"
+    params:
+      outcome: "HOLD_AND_REFER"
+    reason_code: "STOP_LOCK"
+
+  - rule_id: REFERRAL_TRIGGER
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "8.3"
+    params:
+      amount_threshold: 2500000
+      window_days: 14
+      outcome: "HOLD_AND_REFER"
+    reason_code: "REFERRAL_TRIGGER"
+
+  - rule_id: CASH_LIMIT_BREACH
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "8.4"
+    params:
+      limit_inr: 50000
+      period: "FY"
+      outcome: "REJECT"
+    reason_code: "CASH_LIMIT_BREACH"
+
+  - rule_id: MINOR_ATTAINED_MAJORITY
+    doc_id: VAL-OPS-TCC-SOP
+    version: "4.1"
+    clause_id: "5.5"
+    params:
+      outcome: "PEND"
+    reason_code: "MINOR_ATTAINED_MAJORITY"
+
+  - rule_id: TMF_A1_REFERRAL
+    doc_id: TMF-ADD-02
+    version: "1.0"
+    clause_id: "A1"
+    params:
+      amount_threshold: 500000
+      window_days: 30
+      sip_excluded: true
+      outcome: "HOLD_AND_REFER"
+    reason_code: "REFERRAL_TRIGGER"
+
+  - rule_id: TMF_A2_COB_PROOF
+    doc_id: TMF-ADD-02
+    version: "1.0"
+    clause_id: "A2"
+    params:
+      existing_account_proof: "mandatory"
+      in_person_accepted: false
+    reason_code: "BANK_PROOF_REQUIRED"

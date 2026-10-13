@@ -1,0 +1,1 @@
+{"request_type": "REDEMPTION", "outcome": "REJECT", "reason_codes": ["MINOR_RESTRICTED"], "checks": {"FOLIO_IDENTITY": "PASS", "KYC_STATUS": "PASS", "THIRD_PARTY_PAYMENT": "NOT_APPLICABLE", "BANK_MANDATE": "PASS", "COB_COOLING": "PASS", "DISTRIBUTOR_CODE": "NOT_APPLICABLE", "MINOR_RULES": "FAIL", "REFERRAL": "PASS"}, "request_id": "custom_10"}

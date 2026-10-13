@@ -1,0 +1,52 @@
+{
+  "R01": {
+    "request_id": "R01",
+    "received_at": "2026-10-06T10:12:00+05:30",
+    "channel": "email",
+    "from": "Ramesh Kedia <operations@kediawealth.example>",
+    "to": "TCC Desk <tcc.desk@validus-rta.example>",
+    "cc": "",
+    "subject": "SIP Registration - Arjun Nair - Narmada Flexi Cap - Folio 4011882323",
+    "body": "Dear Team,\n\nPlease register a monthly SIP of Rs. 10,000/- for our client Mr. Arjun Nair as below:\n\nFolio no.     : 40118823/23\nScheme        : Narmada Flexi Cap Fund - Regular Plan - Growth Option\nSIP amount    : Rs. 10,000/- per month, SIP date 10th, from Nov-2026, perpetual\nDebit mandate : existing OTM/NACH on his registered Aravali Bank a/c ending 4908\n\nThe first instalment of Rs. 10,000 was debited through NACH on 06-10-2026.\nARN-145023 / EUIN E289730\n\nKindly confirm the registration.\n\nRegards,\nRamesh Kedia\nKedia Wealth Partners (ARN-145023) | Hyderabad",
+    "attachments": []
+  },
+  "R02": {
+    "request_id": "R02",
+    "received_at": "2026-10-06T18:40:00+05:30",
+    "channel": "email",
+    "from": "Vasant Kulkarni <vasantgk1951@rediffmail.example>",
+    "to": "TCC Desk <tcc.desk@validus-rta.example>",
+    "cc": "",
+    "subject": "Investment for my grandson Ishaan - folio 4017361278",
+    "body": "Dear Sir/Madam,\n\nI have today transferred Rs. 40,000/- (Rupees Forty Thousand only) by NEFT from my savings account with Satpura\nBank to Narmada Mutual Fund, for investment in Narmada Flexi Cap Fund in the name of my grandson\nIshaan Kulkarni (minor). Folio no. 4017361278. His father Rohan is the guardian on the folio.\n\nAs you are aware, grandparents are allowed to invest up to Rs. 50,000 for minor grandchildren, so kindly process\nat the earliest. The NEFT advice is attached for your reference (UTR KNKMH2610065981253).\n\nWith regards,\nVasant G. Kulkarni\nKothrud, Pune",
+    "attachments": [
+      {
+        "file_name": "NEFT_advice_Vasant_Kulkarni.pdf",
+        "content_type": "application/pdf",
+        "content_base64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtT2JsaXF1ZSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyA5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChhbm9ueW1vdXMpIC9DcmVhdGlvbkRhdGUgKEQ6MjAwMDAxMDEwMDAwMDArMDAnMDAnKSAvQ3JlYXRvciAoYW5vbnltb3VzKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAwMDAxMDEwMDAwMDArMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAodW5zcGVjaWZpZWQpIC9UaXRsZSAodW50aXRsZWQpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKOCAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDUgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDY0Nwo+PgpzdHJlYW0KR2F0PWg/I3VIIihrcUdNLydfX1NCYWJATl9WSVxYQDc5SidpcTEqVyVCTi8yQ1dmNDBxPWUvUE5LQ0QrQVJVdFoqUjo3M289YlRgVkNsbjYtOTpTOm5ERmxpKkdiby1uK0ZLdU43bEhhPnNHcXJoUjUqcWZFOVBAJSVJPyNOblxPPjBtTCoiOTxhI2tFWzsmREZrbzcsR1omKjckKD5cbG1lO1cxZi0yJDpcY19nPnA/Q0NxXyEuNmw5Q2FgL2RscG51RWstPCluYGlWTUU5cTQ+aEw7VCczI1lTOWVZXTlEND1icW1aYjVWXkFzYXNUXF1EK1c7STpfcTAldFtOUTA/LyZDS3JFKDZwbFxeWlw5S10wU3REZ1NWTVkhJ1lUWSU4M0NOIkdgcUZZTyExci5STW0iImhNLFA1I3VqZTdzLTpdS2ZkUmM/PVUkJWcuU0RPJ11PJmRZLjw/KkxxMzZtZlZENCFDISYlQFpoLiZEUEsoN..."
+      }
+    ]
+  },
+  "R03": {
+    "request_id": "R03",
+    "received_at": "2026-10-07T15:02:00+05:30",
+    "channel": "email",
+    "from": "HR Payroll - Deccan Polymers <payroll@deccanpolymers.example>",
+    "to": "TCC Desk <tcc.desk@validus-rta.example>",
+    "cc": "",
+    "subject": "Payroll SIP - Sandeep Yadav (Emp DP-4471) - Tungabhadra Large & Mid Cap",
+    "body": "Dear Team,\n\nAs part of our Employee Investment Programme we have started a monthly payroll-deduction SIP of Rs. 5,000/- for our\nemployee Mr. Sandeep Yadav (Employee Code DP-4471) in Tungabhadra Large & Mid Cap Fund - Direct - Growth,\nfolio 71138631 / 21. The first instalment was remitted by NEFT from our company current account on 07-Oct-2026.\n\nThe signed Third Party Payment Declaration and our confirmation letter are attached. The list of employees will be\nshared by our finance team separately.\n\nRegards,\nKavya Rao\nHR Operations, Deccan Polymers Pvt Ltd",
+    "attachments": [
+      {
+        "file_name": "TPP_Declaration_Sandeep_Yadav_scan.jpg",
+        "content_type": "image/jpeg",
+        "content_base64": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/wAALCAbaBNgBAREA/8QAHAABAQADAQEBAQAAAAAAAAAAAQACBAUDBgcI/8QAVxAAAQMDAwIEAwYDAwkEBwIPAQACEQMEIQUxQRJRBhNhcSKBkQcUMqGx0RVCwSNSkxYkMzRykuHw8VNUYnMlNUNEY4KDstIXJlUnNkUIdKJkdaPC4oT/2gAIAQEAAD8A/X1KUpSlKUpSlKUpSlKUpSlKUpSlKUpZdDv7p+iuh/8Acd9FdDv7rvorod/dP0V0O/un6JFN5/lPzV5T4np/NXlP/u/mjodMQnyn/wB1Pk1Inp/NPkO7gqFFx5CvIf3b9VGg4Hdv1V5DsZGfVIoHMu+ijQjd35KFCT+L8km3j+f8lG3j+b8keR3dn2WTaDDy5QoMjdyvIZA/EoUWExJSaDIwSoUWDcE+6fJZn4fzWPlt36ce6vKZ2KyFKny3Purymf3Y+aSxsfhbPsnoYY+EfRRYwZ6RHsgMZmWjHorobEw2PZMBuQAJ7BQ5zn0TJ/6q3Hxb7qO/dQHHdEQdvyU7cJB7zlR7SjaJCyjsjEkIO2yh68pOd8IPrt7pgblRJgBU4gd8qwccKxt+injAjsqcARsreOUgCFYMoDhEA7IM5A5U0QNoTjAGVTmIUe4MqzGOUE4gKjlO24+qiJM9kEmJwVc8SnPdI4/JYkH/AIqBysiIjKO6OBhMZ+EqdiVDJyYSfh9kDeIQQTjuniTuEYkJcIRMQHfQKA9EmOyic53UC2McqgESjHy9FksYEysuOR3Q8S3dYgxAWUxwscRssp49FDAzhBw3HCdxjZAyd8pAnjPIVtsSrjhUAjK8LgR0/NeKln5T+35pFF/b80+Q6JkFQoOPIR5Ls5GFCi48hPkO7hLaBO5+ivI/8X5J+7f+PHsg0ADBd+SvIBiH49leRn8WPZZeQ3O/1UaDdpMq8lkxLpV5DRuT8lCiw7dX1UKTcyCfmnyWdinyqf8Ad/NHlU+yvKZsWwfdQotmYELIMbJloPpCg1on4R9FdDT/ACt+iehsZa0fJY9DREhqya0NBgY9E/y98qBHAyoACTOUYISDhEGN8hUSeZKYM8IJiQN0kzx9EyCJWI3gp/mhXoeEARj04URHorjBgJ9OZVhGZnhJ3gcqOMncLEZGZHonaEtnfhGIkQkH+8gRxsp2Nj7pBHsUGYEEJkmRCOJOFB2IOPdTkkyPVEEe5TwMSUEEe6yBwsSdxCyGdsBAMzEFRExKhjPdRCDE53SJJyFR9eFZB3VxlWDAMYQTjPCiCYScDuoGSoiFCD2x+SvnlGJ2yk7bIBwnbfChGT+qJzgKEnKicZH0SAIURGUHAI2UIHzUFkc+ywMwMQn25SO+VD0MoBM5CiM91ZJUQduFGAFHPtChkYTsIJlWCZ3R+RnZIGclQwT6o2O6c8IAjIKQBCjnCjG3KDCDk5WXsruQFA4Udwo8YRM7JIgiAg5wCp2AMynficIjGfqmO2wVKoDsqIk7IzsCB3VnhM5iNuVZGBt3VImQjmUnJjZBmVlssZP1XncN+EOnmFrqW6RkJEIIzlBGNwFZ4SNt1DYwSo+mFQeMIJjeVbzCpgKI7JBzP9VAjH9EHuOEtHwnOSMojmUwAMbImCAqMwU9MeqnEA+qhPSgDJj6KjOxTPcQgjsriRkqk4zgIOZP1S0CMR7JcoYEqbPARmUgyj33TAnJwjpzMyFbZAVkg/krJzwg5MgJBxlMSJ/JBEOiMK6v5Y2ScBAEYlR4VMzjKcjcInCcjYyiJKnDOd+FAAq9BJUfYKj1hR7qM4EpcTtCwkDHdZbY43SN5nCRgysYiSSEjO6IPukmMo5z2VmcKcMZ3UBCNykEgcrLceqBKj2CpzwjaYSOP..."
+      },
+      {
+        "file_name": "Deccan_Polymers_payroll_letter.pdf",
+        "content_type": "application/pdf",
+        "content_base64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoYW5vbnltb3VzKSAvQ3JlYXRpb25EYXRlIChEOjIwMDAwMTAxMDAwMDAwKzAwJzAwJykgL0NyZWF0b3IgKGFub255bW91cykgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMDAwMTAxMDAwMDAwKzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKHVuc3BlY2lmaWVkKSAvVGl0bGUgKHVudGl0bGVkKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA5MTUKPj4Kc3RyZWFtCkdhdD0pPyN1SzkmOk1tLjMpP05FVGBicWpfYllEIzNSTHJoKTRAQWxOKmIoUy0idTdEYytPb0BSZCNuJSFnWjlQa3NMIjYlI102JGxvRFsuKyEuJidIVkgkSzZcPiVrNTVZRSYlWSFWcjhDZ2xpRHFdRjk1QUs2LUY0Pls/TGNlQS5eLHFuMnBnby87YEgiL1dyZiRXJHJIUGcsNDxYV2RAJUFpJE9vMSdzaCgsOl5XUzpqLURYX19zRUhGWzA5NFxfMyVjWCI7XmhWdD1bQ0FcIlE9UUVsPnMhOVJcTC91N20tI1EoQWIuMShKViciS3FfPEZeOEpJYltiWkNHLEhPcEE7L0dVLS1oQ01GYWhVZ28qaG9ONCslZCg1b1VhYUU8Llpda0FgWUlDMTNnPz9EMDNjcUZlPWZwIV9UMzA1ZEorXDNuYU5SRDpYbmZyJFtURDBRLyErYywkUUglW0RSUVU+KlVCaE9rIi5iZ11rUnRLKSlAPyY5cTxyczQyU2tVOkw6Ryk5OSdUY1VrRyUkSmxXb1dEdV9cLE9nPFQhNmUkXGEkYTJWV1MqYDxTMipnS1gpMVFXREpHU0pIXWMkRHBkL1BTZV0sRXBsakk7XEJ0UW0vOFheWXVcREBVLVwhSTIhNyYpUHI1NlREMDo9d..."
+      }
+    ]
+  }
+}
