@@ -171,7 +171,8 @@ def _safe_fallback(request: RequestIn) -> ResponseOut:
 def main():
     import uvicorn
     port = int(os.environ.get("PORT", "8000"))
-    uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=True)
+    reload_mode = os.environ.get("UVICORN_RELOAD", "").lower() in ("1", "true", "yes")
+    uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=reload_mode)
 
 
 if __name__ == "__main__":

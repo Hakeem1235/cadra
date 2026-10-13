@@ -1,0 +1,47 @@
+[
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "KEVPV**63H",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "HYVPR**99V",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "ECWPK**32V",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "DCEPK**07H",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "LHZPS**21E",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "PWYPN**33P",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "URFPP**04D",
+    "value": "code=7"
+  },
+  {
+    "type": "KRA_SINGLE_DIGIT_CODE",
+    "ref": "EBWPR**06C",
+    "value": "code=7"
+  },
+  {
+    "type": "NEGATIVE_UNITS_OR_NAV",
+    "ref": "T181000029",
+    "value": "units=-682982.356, nav=-0.8785"
+  }
+]

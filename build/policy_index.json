@@ -1,0 +1,505 @@
+{
+  "clauses": [
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_2.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "2.2",
+      "title": "Out of scope: exchange and demat-platform transactions (handled by the exchange desk), transmission and nomination servicing, NAV and unit allotment computation, and any decision on whether to report a transaction to FIU-IND, which rests with the AMC.",
+      "text": "3. Roles and responsibilities",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_3.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "3.2",
+      "title": "Viewing access to a folio does not confer authority to approve an outcome. Approval authority is as set out in Annexure A only.",
+      "text": "4. KYC verification",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_4.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "4.2",
+      "title": "The KRA status determines which requests may be accepted, as follows:",
+      "text": "",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_4.6",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "4.6",
+      "title": "The name and date of birth on the request must match the KRA record for the PAN. Initials, salutations and name order differ across systems; the PAN and folio, not the name, identify the investor.",
+      "text": "5. Third-party payments",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_5.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "5.3",
+      "title": "The following third-party payments are accepted when every document listed is received:",
+      "text": "",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_5.6",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "5.6",
+      "title": "Source of funds is verified by payment mode:",
+      "text": "",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_5.7",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "5.7",
+      "title": "Outcome. A third-party payment that falls outside 5.3 and 5.4 is rejected (reason TPP_NO_EXCEPTION) and the money is refunded to the remitting account. A payment within 5.3 with any listed document missing is pended (reason TPP_DOCS_MISSING); the reply lists each missing document. A ticked enclosure box on a form is not a substitute for the enclosure. If the documents are not received within 30 days the request is rejected.",
+      "text": "6. Bank mandates and change of bank",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_6.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "6.5",
+      "title": "Where the registered mobile number or email of the folio changed within the 30 days before a COB request, and a redemption is requested while the COB is within its cooling period, the request is treated as high risk: the payout is held and the request is referred to the Operations Manager and AMC Compliance (outcome HOLD_AND_REFER, reason HIGH_RISK_CONTACT_COB). Both the old and new contact details are informed of the change of bank.",
+      "text": "7. Distributor codes (ARN and EUIN)",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_7.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "7.4",
+      "title": "An SIP registered under a valid ARN remains in the Regular plan for its tenure.",
+      "text": "8. Red flags and referral",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_8.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "8.3",
+      "title": "Indicative referral triggers (an AMC addendum may add to these):",
+      "text": "",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_8.6",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "8.6",
+      "title": "Replies to investors on held, pended or referred requests state only the processing status and any document required. They never mention a referral, suspicion, compliance review or reporting.",
+      "text": "9. Outcomes and reason codes",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_9.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "9.1",
+      "title": "Each request receives exactly one outcome:",
+      "text": "",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_4.1_9.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "4.1",
+      "effective_from": "2026-08-01",
+      "clause_id": "9.5",
+      "title": "The case record holds: the request, the records and document versions relied on with their identifiers, each check and its result, the outcome and reason codes, the approver and the time of approval, and the reply sent.",
+      "text": "Annexure A \u2014 Approval matrix  Annexure B \u2014 Reply guidance Replies are sent from the TCC desk mailbox within the SLA in Annexure C, in plain language, quoting the folio and the request. A pend lists each document or action required and where to send it. A rejection states the reason in terms of this procedure and the refund route. A hold or referral states only that the request is under processing and the expected date of the next update (8.6). Annexure C \u2014 Service levels  Annexure D \u2014 Revision history",
+      "status": "Current"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_2.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "2.1",
+      "title": "In scope: fresh and additional purchases, SIP registrations and SIP instalments, redemptions, and",
+      "text": "change-of-bank-mUandate (COB) requests received by the TCC desk mailbox, the service centres or the transaction feed, for individual, minor, HUF and NRI investors.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_2.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "2.2",
+      "title": "Out oSf scope: exchange and demat-platform transactions (handled by the exchange desk), transmission",
+      "text": "and nomination servicing, NAV and unit allotment computation, and any decision on whether to report a transaction to FIU-IND, which rests with the AMC. 3. Roles and responsibilities Role Responsibility in this procedure TCC Maker Checks the request against Sections 4\u20138, records the checks, proposes the outcome and drafts the reply. TCC Checker Verifies the maker's checks and approves outcomes listed in Annexure A as requiring checker approval. Operations Manager \u2014 Investor Services Approves payout holds and referrals; owns SLA breaches and escalations. AMC Compliance / Principal Officer Receives referrals; decides on any further action, including reporting. The RTA does not decide or report. Service Automation (system) May retrieve records, run defined checks and propose an outcome. May not approve an outcome reserved to a role in Annexure A.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_3.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "3.2",
+      "title": "Viewing access to a folio does not confer authority to approve an outcome. Approval authority is as set out",
+      "text": "in Annexure A only. 4. KYC verification  Validus \u2014 Investor Services Operations | Internal",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_4.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "4.1",
+      "title": "The KYC status of the first holder (and, for minors, of the minor; for joint folios, of all holders for new folios)",
+      "text": "is read from the KRA lookup. The lookup is refreshed daily at 06:00; the desk uses the latest snapshot and records the KRA, status code and time of the lookup.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_4.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "4.2",
+      "title": "The KRA status determines which requests may be accepted, as follows:",
+      "text": "KRA status New folio \u2014 new New folio \u2014 AMC Additional purchase Redemption AMC already held / SIP KYC Validated Accept Accept Accept Accept KYC Registered Do not accept \u2014 Accept Accept Accept fresh KYC requir (4.3) On Hold Do not accept Do not accept Do not accept (4.4) Refer to Operations Manager KYC Rejected Do not accept Do not accept Do not accept (4.4) Refer to Operations Manager D Under Process / Not Pend (4.5) Pend (4.5) Pend (4.5) Pend (4.5) Available / service not reachable E",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_4.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "4.3",
+      "title": "An investor whose status is KYC Registered may continueD to transact in folios with AMCs where the",
+      "text": "investor already holds a folio. A request to open a folio with an AMC where the investor holds no folio is pended (reason KYC_REGISTERED_NEW_AMC) and the investor is asked to complete fresh KYC E (Aadhaar-based where possible) so that the status becomes KYC Validated.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_4.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "4.4",
+      "title": "Financial transactions of an investor whoseS status is On Hold or KYC Rejected are not accepted (reason",
+      "text": "KYC_ON_HOLD or KYC_REJECTED). The reply asks the investor to update KYC with a KRA or intermediary; it does not state any other reason. R",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_4.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "4.5",
+      "title": "Where the KRA lookup returns Under Process, Not Available or 'web service not reachable', or the latest",
+      "text": "E lookup for the investor is older than 24 hours, the KYC check is recorded as UNABLE_TO_VERIFY and the request is pended (reason KYC_UNABLE_TO_VERIFY) for re-check in the next lookup cycle. An unavailable P lookup is never treated as a pass.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_4.6",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "4.6",
+      "title": "The name and date of birth on the request must match the KRA record for the PAN. Initials, salutations",
+      "text": "U and name order differ across systems; the PAN and folio, not the name, identify the investor. S 5. Third-party payments",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_5.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "5.1",
+      "title": "A payment is a third-party payment when it is made from a bank account of which the first holder of the",
+      "text": "folio is not an account holder. For a joint bank account, the first holder of the folio must be one of the holders of the bank account. A payment from the first holder's own account is not a third-party payment even where that account is not registered on the folio; see 5.6 for the proof required.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_5.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "5.3",
+      "title": "The following third-party payments are accepted when every document listed is received:",
+      "text": "Situation Documents requir Employer paying for employee(s) \u2014 SIP or lump sum Third Party Payment Declaration; employer declaration on through payroll or expense-reimbursement deduction letterhead; list of employees with employee code, PAN and KYC details on letterhead; KYC acknowledgement of investor and of employer Custodian paying for an FPI or client Third Party Payment Declaration; custodian SEBI registration number and validity; KYC of investor and custodian AMC paying its empanelled distributor commission in units Declaration; list of distributors with ARN Corporate paying its agent/dealer/distributor incentive in Declaration; list on letterhead with PAN and KYC; KYC of units corporate Parent, grandparent or related person paying for a minor \u2014 Third Party Payment Declaration stating the relationship; up to Rs 50,000 per purchase or SIP instalment KYC of payer  Validus \u2014 Investor Services Operations | Internal",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_5.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "5.4",
+      "title": "Minor folios. A payment from the bank account of the minor or from a joint account of the minor with the",
+      "text": "guardian is accepted. Payments by a parent, grandparent or related person are accepted up to Rs 50,000 per purchase or SIP instalment under 5.3 with the declaration and the payer's KYC.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_5.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "5.5",
+      "title": "Minor attaining majority. From the date the minor attains majority, all transactions, standing instructions",
+      "text": "and systematic registrations (SIP, STP, SWP) in the folio are suspended and the guardian may no longer operate the folio, until the major submits the change-of-status form, their own KYC and new bank details. Instalments falling due after that date are pended (reason MINOR_ATTAINED_MAJORITY) and the guardian and the major are informed of the documents required.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_5.6",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "5.6",
+      "title": "Source of funds is verified by payment mode:",
+      "text": "Payment mode Evidence that identifies the paying account Cheque Account number and holder name pre-printed on the cheque; otherwise a copy of passbook/statement or a bank letter NEFT / RTGS / IMPS / fund transfer Remitter account and name from the bank credit feed; wher the account is not registered on the folio, a copy of the transfer instruction or a bank statement showing the debit E Net banking / UPI Debit account returned by the payment gateway, matched to the registered pay-in accounts D NACH / OTM The registered mandate account Demand draft / pay order Issuing banker's certificate with account holder name and E debited account Cash SNot a means of verifying the payer; see 8.5",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_5.7",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "5.7",
+      "title": "Outcome. A third-party payment that falls outside 5.3 and 5.4 is rejected (reason TPP_NO_EXCEPTION)",
+      "text": "R and the money is refunded to the remitting account. A payment within 5.3 with any listed document missing is pended (reason TPP_DOCS_MISSING); the reply lists each missing document. A ticked enclosure box on a E form is not a substitute for the enclosure. If the documents are not received within 30 days the request is rejected. P 6. Bank mandates and change of bank U",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_6.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "6.1",
+      "title": "A folio may register up to five bank accounts (individuals and HUFs) or ten (non-individuals), one of which",
+      "text": "is the default account. An account is registered only after verifying that the first holder of the folio is a holder of S the account.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_6.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "6.2",
+      "title": "Redemption and IDCW proceeds are paid only to a registered bank account with status VALIDATED. An",
+      "text": "account named in a redemption request that is not registered and validated on the folio is disregarded and the default account is used, subject to 6.4.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_6.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "6.3",
+      "title": "A change-of-bank (COB) request requires proof of the new account (cancelled cheque with the first",
+      "text": "holder's name printed, statement or passbook not older than three months, or bank letter) and proof of the existing account or in-person verification. The new account is validated by penny drop or NPCI PAN-bas validation before its status becomes VALIDATED.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_6.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "6.4",
+      "title": "Cooling period. Where a COB request is received with a redemption request, the COB is process",
+      "text": "separately and the redemption is paid to the existing registered account.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_6.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "6.5",
+      "title": "Where the registered mobile number or email of the folio changed within the 30 days before a COB",
+      "text": "request, and a redemption is requested while the COB is within its cooling period, the request is treated as high risk: the payout is held and the request is referred to the Operations Manager and AMC Compliance (outcome HOLD_AND_REFER, reason HIGH_RISK_CONTACT_COB). Both the old and new contact details are informed of the change of bank. 7. Distributor codes (ARN and EUIN)",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_7.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "7.1",
+      "title": "The ARN quoted on a Regular-plan transaction is validated at the time of processing against the",
+      "text": "distributor master (AMFI data as loaded by Validus) and the AMC's empanelment list.  Validus \u2014 Investor Services Operations | Internal",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_7.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "7.2",
+      "title": "A Regular-plan transaction quoting an expired or invalid ARN is processed in the Regular plan and, if a",
+      "text": "valid ARN is not received within 30 calendar days, is reprocessed into the Direct plan without exit load.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_7.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "7.3",
+      "title": "Where the EUIN is blank, the transaction is processed in the Regular plan; a valid EUIN must be provid",
+      "text": "within 30 days and commission is withheld until then, unless the investor's signed execution-only declaration accompanies the transaction (reason EUIN_MISSING for follow-up).",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_7.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "7.4",
+      "title": "An SIP registered under a valid ARN remains in the Regular plan for its tenure.",
+      "text": "8. Red flags and referral",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_8.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "8.1",
+      "title": "The TCC desk identifies and refers. It does not conclude that a transaction is suspicious, does not report",
+      "text": "to FIU-IND, and does not inform the investor or distributor that a referral has been made.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_8.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "8.2",
+      "title": "Referrals are made to the AMC's Compliance team / Principal Officer through the referral queue with the",
+      "text": "request, the records relied on and the reason code, after Operations Manager approval of any payout hold.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_8.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "8.3",
+      "title": "Indicative referral triggers (an AMC addendum may add to these):",
+      "text": "Trigger Reason cod Purchase(s) and redemption(s) each of Rs 25,00,000 or REFERRAL_TRIGGER more within 14 days in the same folio E Redemption during a COB cooling period after a recent HIGH_RISK_CONTACT_COB contact change (6.5) D Cash beyond the limit in 8.5 CASH_LIMIT_BREACH E Any request on a folio under STOP/LOCK (8.4) STOP_LOCK S",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_8.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "8.4",
+      "title": "STOP/LOCK folios. A folio flagged STOP_LOCK in the folio master (for example where a distributor or its",
+      "text": "employee appears as a joint holder or nominee of an unrelated investor) may not have any financial R transaction processed by the desk. The request is held and referred (outcome HOLD_AND_REFER, reason STOP_LOCK); only AMC Compliance may lift the lock. E",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_8.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "8.5",
+      "title": "Cash. Cash investments are accepted only up to Rs 50,000 per investor (by PAN of the first holder), per",
+      "text": "AMC, per financial year (April\u2013March), aggregated across all folios and schemes of that AMC. A cash P investment that would take the total above Rs 50,000 is rejected (reason CASH_LIMIT_BREACH) and refunded; redemption proceeds are never paid in cash. U",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_8.6",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "8.6",
+      "title": "Replies to investors on held, pended or referred requests state only the processing status and any",
+      "text": "document required. They never mention a referral, suspicion, compliance review or reporting. S 9. Outcomes and reason codes",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_9.1",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "9.1",
+      "title": "Each request receives exactly one outcome:",
+      "text": "Outcome Meaning PROCEED All checks passed; process as request PROCEED_MODIFIED Process with a change this procedure requires (e.g. Direct plan under 7.2) PEND Hold in abeyance for a document, a re-check or a period; reply states what is need REJECT Not acceptable under this procedure; refund where money was receiv HOLD_AND_REFER Hold any payout and refer to the Operations Manager and AMC Compliance INVALID_REQUEST Folio or investor cannot be identified, or identifiers conflict; ask the sender to clarify",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_9.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "9.2",
+      "title": "Where more than one rule applies, the outcome is the first in this order: INVALID_REQUEST, REJECT,",
+      "text": "HOLD_AND_REFER, PEND, PROCEED_MODIFIED, PROCEED. All applicable reason codes are recorded.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_9.3",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "9.3",
+      "title": "Reason codes: KYC_ON_HOLD, KYC_REJECTED, KYC_REGISTERED_NEW_AMC,",
+      "text": "KYC_UNABLE_TO_VERIFY, TPP_NO_EXCEPTION, TPP_DOCS_MISSING, BANK_PROOF_REQUIRED,  Validus \u2014 Investor Services Operations | Internal MINOR_ATTAINED_MAJORITY, COB_COOLING, HIGH_RISK_CONTACT_COB, ARN_INVALID_DIRECT, EUIN_MISSING, REFERRAL_TRIGGER, STOP_LOCK, CASH_LIMIT_BREACH, FOLIO_NOT_FOUND, FOLIO_PAN_MISMATCH.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_9.4",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "9.4",
+      "title": "A request whose folio number does not exist in the folio master, after allowing for formatting differences,",
+      "text": "or whose folio and investor details conflict, is INVALID_REQUEST (reason FOLIO_NOT_FOUND or FOLIO_PAN_MISMATCH). The desk does not substitute a similar folio.",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_9.5",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "9.5",
+      "title": "The case record holds: the request, the records and document versions relied on with their identifiers,",
+      "text": "each check and its result, the outcome and reason codes, the approver and the time of approval, and the reply sent. D  E S R E P U S  Validus \u2014 Investor Services Operations | Internal Annexure A \u2014 Approval matrix Outcome Who may decide Approval requir PROCEED Maker (checker samples 10% daily) None PEND Maker None INVALID_REQUEST Maker None PROCEED_MODIFIED Maker proposes TCC Checker REJECT Maker proposes TCC Checker HOLD_AND_REFER Maker proposes Operations Manager (hold); referral to AMC Compliance Annexure B \u2014 Reply guidance Replies are sent from the TCC desk mailbox within the SLA in Annexure C, in plain language, quoting the folio D and the request. A pend lists each document or action required and where to send it. A rejection states the reason in terms of this procedure and the refund route. A hold or referral states only that the request is under processing and the expected date of the next update (8.6). E Annexure C \u2014 Service levels D Request Desk SLA E Purchase / SIP check Same business day if received by 1:00 pm; otherwise next business day S Redemption check Same business day (payout timelines per SEBI: 3 working Rdays) COB Validation within 10 business days of a complete request E Annexure D \u2014 Revision history P Version Date Change",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_3.0",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "3.0",
+      "title": "U 01 Jun 2024 KYC status matrix updated for KRA",
+      "text": "validation (Validated / Registered / On Hold) S",
+      "status": "Superseded"
+    },
+    {
+      "chunk_id": "VAL-OPS-TCC-SOP_3.2_3.2",
+      "doc_id": "VAL-OPS-TCC-SOP",
+      "version": "3.2",
+      "effective_from": "2025-01-01",
+      "clause_id": "3.2",
+      "title": "01 Jan 2025 Minor folio payments; invalid ARN",
+      "text": "handling; COB cooling clarifi",
+      "status": "Superseded"
+    }
+  ],
+  "total": 50
+}

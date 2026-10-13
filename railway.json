@@ -1,10 +1,12 @@
 {
+  "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "command": "pip install -r requirements.txt && python scripts/prepare_data.py"
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "Dockerfile"
   },
-  "start": "uvicorn app.main:app --host 0.0.0.0 --port $PORT",
-  "healthcheck": {
-    "path": "/health",
-    "interval": 30
+  "deploy": {
+    "restartPolicyType": "ON_FAILURE",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 300
   }
 }

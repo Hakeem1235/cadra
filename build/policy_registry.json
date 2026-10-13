@@ -1,0 +1,23 @@
+[
+  {
+    "doc_id": "VAL-OPS-TCC-SOP",
+    "version": "4.1",
+    "effective_from": "2026-08-01",
+    "status": "Current",
+    "file": "Validus_TCC_SOP_v4.1.docx"
+  },
+  {
+    "doc_id": "VAL-OPS-TCC-SOP",
+    "version": "3.2",
+    "effective_from": "2025-01-01",
+    "status": "Superseded",
+    "file": "Validus_TCC_SOP_v3.2.pdf"
+  },
+  {
+    "doc_id": "TMF-ADD-02",
+    "version": "1.0",
+    "effective_from": "2026-09-15",
+    "status": "Current",
+    "file": "Tungabhadra_MF_Client_Addendum_TMF-ADD-02.pdf"
+  }
+]
